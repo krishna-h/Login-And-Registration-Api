@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0312EEB9615C6E8EF67D55BDB17FF6B2 /* Pods-Login And Registration Api-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844CFAE6C04E7737D90921149393900C /* Pods-Login And Registration Api-dummy.m */; };
+		1D2BF0EF7336651B7CB7E2BC7B83F9CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		33530D0FA852B45FA80439BF45F7A3BC /* TweeActiveTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1753BA8AFFB42BFE3935D4816160F0F /* TweeActiveTextField.swift */; };
+		3752D5BC0E14222D9963CEC475246972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3A7F0EA66E3B8AEDFE86E18E8C33D309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5589E2D3966A0A54C4247B2CC7BE4F93 /* Pods-Login And Registration Api-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791265DD304CEE7CF9BD5DCA1E62728D /* Pods-Login And Registration Api-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE915AABFFC098AF71F0D800C2B6EF7 /* TweeTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B12617464474A2C7D8D7DBAB918FA18 /* TweeTextField-dummy.m */; };
+		654C4C33EC4FA1EF2C9250EFACB59450 /* WeakTargetProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E71E9C2BB4573D2C6929EF5CCC16B /* WeakTargetProxy.swift */; };
+		66445DFD50DC38E66E5FD097CA02DE12 /* FontAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF411F0EF6717FFD9D1BF751AC66EF2 /* FontAnimation.swift */; };
+		66958AAFB77E186758F2472CBFEE2439 /* TweeTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B4D959FA733E85396CD77EB6B91F21 /* TweeTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2115F996ED0781962D9858EECC28B2 /* TweePlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0437BD47DB6327727D17C3C20C2176 /* TweePlaceholderTextField.swift */; };
+		D0FCEA36439BB5E9287C7DD2F845B5B7 /* TweeBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBBECA1722179B50C4EB7E7CB43648 /* TweeBorderedTextField.swift */; };
+		F1CB698135AD46C8ED6A60767D968A81 /* TweeAttributedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E6888C1ECDFD5F77D50981CB60AAF /* TweeAttributedTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6A92B4AD0276C7700BFD89989EDF653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A7B919413D485DB83D72F83A288BF1;
+			remoteInfo = TweeTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A682063947B23E633B6BCB7202E13D /* TweeTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TweeTextField-prefix.pch"; sourceTree = "<group>"; };
+		14EA9AC18EA54CB5B1E714B13D7E9EFA /* Pods-Login And Registration Api.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login And Registration Api.modulemap"; sourceTree = "<group>"; };
+		251DDF79E491022D6AA4E1CFA74ABA88 /* TweeTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TweeTextField.debug.xcconfig; sourceTree = "<group>"; };
+		29E1599D5A060ECDED0DA58C4BF443FA /* TweeTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TweeTextField.release.xcconfig; sourceTree = "<group>"; };
+		2C0E71E9C2BB4573D2C6929EF5CCC16B /* WeakTargetProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakTargetProxy.swift; path = Sources/WeakTargetProxy.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61FC4B05738CE89AF9710FD2865ECEF2 /* Pods-Login And Registration Api-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login And Registration Api-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BA836C888714DC006BD5B63FF5096DA /* Pods-Login And Registration Api-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login And Registration Api-frameworks.sh"; sourceTree = "<group>"; };
+		791265DD304CEE7CF9BD5DCA1E62728D /* Pods-Login And Registration Api-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login And Registration Api-umbrella.h"; sourceTree = "<group>"; };
+		7E0849958075B84A24AB77175A26A5F8 /* TweeTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TweeTextField.framework; path = TweeTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		814E6888C1ECDFD5F77D50981CB60AAF /* TweeAttributedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweeAttributedTextField.swift; path = Sources/TweeAttributedTextField.swift; sourceTree = "<group>"; };
+		844CFAE6C04E7737D90921149393900C /* Pods-Login And Registration Api-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login And Registration Api-dummy.m"; sourceTree = "<group>"; };
+		84503894F960C1CB7377BEC83F0F8A38 /* Pods-Login And Registration Api-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login And Registration Api-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93B4D959FA733E85396CD77EB6B91F21 /* TweeTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TweeTextField-umbrella.h"; sourceTree = "<group>"; };
+		9B12617464474A2C7D8D7DBAB918FA18 /* TweeTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TweeTextField-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB88A11B7453B88DD6D511A13E7852B0 /* Pods-Login And Registration Api.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login And Registration Api.release.xcconfig"; sourceTree = "<group>"; };
+		AC2714F6269D5E7DEAC229027BF924B6 /* Pods-Login And Registration Api-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login And Registration Api-Info.plist"; sourceTree = "<group>"; };
+		C1753BA8AFFB42BFE3935D4816160F0F /* TweeActiveTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweeActiveTextField.swift; path = Sources/TweeActiveTextField.swift; sourceTree = "<group>"; };
+		C5FB5BBA9DCECD4B467046ECFF400259 /* Pods-Login And Registration Api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login And Registration Api.debug.xcconfig"; sourceTree = "<group>"; };
+		D2BBBECA1722179B50C4EB7E7CB43648 /* TweeBorderedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweeBorderedTextField.swift; path = Sources/TweeBorderedTextField.swift; sourceTree = "<group>"; };
+		DD81E43938408162B96C944394F4F102 /* TweeTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TweeTextField-Info.plist"; sourceTree = "<group>"; };
+		DF5F5777C74C93E9F08A3149F077B9AC /* Pods_Login_And_Registration_Api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Login_And_Registration_Api.framework; path = "Pods-Login And Registration Api.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E955F9ABF9CEBBC0B8E49F62D2E03BF2 /* TweeTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TweeTextField.modulemap; sourceTree = "<group>"; };
+		EC0437BD47DB6327727D17C3C20C2176 /* TweePlaceholderTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweePlaceholderTextField.swift; path = Sources/TweePlaceholderTextField.swift; sourceTree = "<group>"; };
+		EEF411F0EF6717FFD9D1BF751AC66EF2 /* FontAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAnimation.swift; path = Sources/FontAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B69CAF067D8ED22D24F2C01F1E7D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7F0EA66E3B8AEDFE86E18E8C33D309 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D8B91D4215E5A9B46AE887BA5BB789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3752D5BC0E14222D9963CEC475246972 /* Foundation.framework in Frameworks */,
+				1D2BF0EF7336651B7CB7E2BC7B83F9CB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E6A72D765272CB1ACD2CC217686F3B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E955F9ABF9CEBBC0B8E49F62D2E03BF2 /* TweeTextField.modulemap */,
+				9B12617464474A2C7D8D7DBAB918FA18 /* TweeTextField-dummy.m */,
+				DD81E43938408162B96C944394F4F102 /* TweeTextField-Info.plist */,
+				07A682063947B23E633B6BCB7202E13D /* TweeTextField-prefix.pch */,
+				93B4D959FA733E85396CD77EB6B91F21 /* TweeTextField-umbrella.h */,
+				251DDF79E491022D6AA4E1CFA74ABA88 /* TweeTextField.debug.xcconfig */,
+				29E1599D5A060ECDED0DA58C4BF443FA /* TweeTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TweeTextField";
+			sourceTree = "<group>";
+		};
+		674516456332122CFEB09BFA57A0FA7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC653C2E6F6B6916C5EE3049B42005D1 /* TweeTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9356C71B29F09DC3BB838A4543DEE59C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3261F9B8C63002A8DA7DB804A75894 /* Pods-Login And Registration Api */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F5C481AE9E39A4795B584432CEC0F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F5777C74C93E9F08A3149F077B9AC /* Pods_Login_And_Registration_Api.framework */,
+				7E0849958075B84A24AB77175A26A5F8 /* TweeTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				674516456332122CFEB09BFA57A0FA7A /* Pods */,
+				9F5C481AE9E39A4795B584432CEC0F12 /* Products */,
+				9356C71B29F09DC3BB838A4543DEE59C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3261F9B8C63002A8DA7DB804A75894 /* Pods-Login And Registration Api */ = {
+			isa = PBXGroup;
+			children = (
+				14EA9AC18EA54CB5B1E714B13D7E9EFA /* Pods-Login And Registration Api.modulemap */,
+				84503894F960C1CB7377BEC83F0F8A38 /* Pods-Login And Registration Api-acknowledgements.markdown */,
+				61FC4B05738CE89AF9710FD2865ECEF2 /* Pods-Login And Registration Api-acknowledgements.plist */,
+				844CFAE6C04E7737D90921149393900C /* Pods-Login And Registration Api-dummy.m */,
+				6BA836C888714DC006BD5B63FF5096DA /* Pods-Login And Registration Api-frameworks.sh */,
+				AC2714F6269D5E7DEAC229027BF924B6 /* Pods-Login And Registration Api-Info.plist */,
+				791265DD304CEE7CF9BD5DCA1E62728D /* Pods-Login And Registration Api-umbrella.h */,
+				C5FB5BBA9DCECD4B467046ECFF400259 /* Pods-Login And Registration Api.debug.xcconfig */,
+				AB88A11B7453B88DD6D511A13E7852B0 /* Pods-Login And Registration Api.release.xcconfig */,
+			);
+			name = "Pods-Login And Registration Api";
+			path = "Target Support Files/Pods-Login And Registration Api";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC653C2E6F6B6916C5EE3049B42005D1 /* TweeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				EEF411F0EF6717FFD9D1BF751AC66EF2 /* FontAnimation.swift */,
+				C1753BA8AFFB42BFE3935D4816160F0F /* TweeActiveTextField.swift */,
+				814E6888C1ECDFD5F77D50981CB60AAF /* TweeAttributedTextField.swift */,
+				D2BBBECA1722179B50C4EB7E7CB43648 /* TweeBorderedTextField.swift */,
+				EC0437BD47DB6327727D17C3C20C2176 /* TweePlaceholderTextField.swift */,
+				2C0E71E9C2BB4573D2C6929EF5CCC16B /* WeakTargetProxy.swift */,
+				4E6A72D765272CB1ACD2CC217686F3B2 /* Support Files */,
+			);
+			name = TweeTextField;
+			path = TweeTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB1DF1BE407B4C0F605C7708E35B3E86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66958AAFB77E186758F2472CBFEE2439 /* TweeTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987C417F585389F43F523EB010543D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5589E2D3966A0A54C4247B2CC7BE4F93 /* Pods-Login And Registration Api-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C29CECEDCBC1D1A39A9EC20CEC015FD /* Pods-Login And Registration Api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3D134FC360B9B4C80850E496713707 /* Build configuration list for PBXNativeTarget "Pods-Login And Registration Api" */;
+			buildPhases = (
+				F987C417F585389F43F523EB010543D1 /* Headers */,
+				4097374013E10A615BCDED85816B06E5 /* Sources */,
+				32B69CAF067D8ED22D24F2C01F1E7D91 /* Frameworks */,
+				5A4A2BBBA68E7D91DB1B2E117BF00A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731540F2D6E8EA2AA0C404856DFB4310 /* PBXTargetDependency */,
+			);
+			name = "Pods-Login And Registration Api";
+			productName = "Pods-Login And Registration Api";
+			productReference = DF5F5777C74C93E9F08A3149F077B9AC /* Pods_Login_And_Registration_Api.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9A7B919413D485DB83D72F83A288BF1 /* TweeTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7B366EFFB8412C2F361EF3B384B2B3 /* Build configuration list for PBXNativeTarget "TweeTextField" */;
+			buildPhases = (
+				AB1DF1BE407B4C0F605C7708E35B3E86 /* Headers */,
+				576C4F68717E17599031999FBF209810 /* Sources */,
+				53D8B91D4215E5A9B46AE887BA5BB789 /* Frameworks */,
+				061CCE437B63866A8B4FAAEC9CB1F59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweeTextField;
+			productName = TweeTextField;
+			productReference = 7E0849958075B84A24AB77175A26A5F8 /* TweeTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F5C481AE9E39A4795B584432CEC0F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C29CECEDCBC1D1A39A9EC20CEC015FD /* Pods-Login And Registration Api */,
+				F9A7B919413D485DB83D72F83A288BF1 /* TweeTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061CCE437B63866A8B4FAAEC9CB1F59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4A2BBBA68E7D91DB1B2E117BF00A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4097374013E10A615BCDED85816B06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0312EEB9615C6E8EF67D55BDB17FF6B2 /* Pods-Login And Registration Api-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576C4F68717E17599031999FBF209810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66445DFD50DC38E66E5FD097CA02DE12 /* FontAnimation.swift in Sources */,
+				33530D0FA852B45FA80439BF45F7A3BC /* TweeActiveTextField.swift in Sources */,
+				F1CB698135AD46C8ED6A60767D968A81 /* TweeAttributedTextField.swift in Sources */,
+				D0FCEA36439BB5E9287C7DD2F845B5B7 /* TweeBorderedTextField.swift in Sources */,
+				9E2115F996ED0781962D9858EECC28B2 /* TweePlaceholderTextField.swift in Sources */,
+				5BE915AABFFC098AF71F0D800C2B6EF7 /* TweeTextField-dummy.m in Sources */,
+				654C4C33EC4FA1EF2C9250EFACB59450 /* WeakTargetProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731540F2D6E8EA2AA0C404856DFB4310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TweeTextField;
+			target = F9A7B919413D485DB83D72F83A288BF1 /* TweeTextField */;
+			targetProxy = E6A92B4AD0276C7700BFD89989EDF653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AF103C7BB082F4894711F33D79DDFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251DDF79E491022D6AA4E1CFA74ABA88 /* TweeTextField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TweeTextField/TweeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TweeTextField/TweeTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TweeTextField/TweeTextField.modulemap";
+				PRODUCT_MODULE_NAME = TweeTextField;
+				PRODUCT_NAME = TweeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97EB7A1FD3954D61465ADB54BE7E5985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E1599D5A060ECDED0DA58C4BF443FA /* TweeTextField.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TweeTextField/TweeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TweeTextField/TweeTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TweeTextField/TweeTextField.modulemap";
+				PRODUCT_MODULE_NAME = TweeTextField;
+				PRODUCT_NAME = TweeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE9FF2DECB6C6A447E444C67BB4F2CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB88A11B7453B88DD6D511A13E7852B0 /* Pods-Login And Registration Api.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login And Registration Api/Pods-Login And Registration Api-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login And Registration Api/Pods-Login And Registration Api.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C593C24779717B78123F636881273E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FB5BBA9DCECD4B467046ECFF400259 /* Pods-Login And Registration Api.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login And Registration Api/Pods-Login And Registration Api-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login And Registration Api/Pods-Login And Registration Api.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7B366EFFB8412C2F361EF3B384B2B3 /* Build configuration list for PBXNativeTarget "TweeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF103C7BB082F4894711F33D79DDFF8 /* Debug */,
+				97EB7A1FD3954D61465ADB54BE7E5985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3D134FC360B9B4C80850E496713707 /* Build configuration list for PBXNativeTarget "Pods-Login And Registration Api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C593C24779717B78123F636881273E65 /* Debug */,
+				BE9FF2DECB6C6A447E444C67BB4F2CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
